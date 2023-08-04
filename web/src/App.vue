@@ -5,7 +5,7 @@
         <h5 class="title">Novo usuário</h5>
         <form @submit.prevent="createUser">
           <input type="text" placeholder="Nome" v-model="form.name" required>
-          <input type="text" placeholder="E-mail" v-model="form.email" required>
+          <input type="email" placeholder="E-mail" v-model="form.email" required>
           <button type="submit">Adicionar</button>
         </form>
       </section>
